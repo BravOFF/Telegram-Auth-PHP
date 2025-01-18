@@ -1,5 +1,7 @@
 <?php
-define('BOT_USERNAME', 'T13ipBot'); // place username of your bot here
+require_once ('.env.php');
+global $BotUserName;
+define('BOT_USERNAME', $BotUserName); // place username of your bot here
 
 //print_r($_SERVER);
 
